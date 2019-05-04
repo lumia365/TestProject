@@ -1,5 +1,8 @@
 function myFunc()
-{	y^=1
+{	if(y==0)
+		y=1;
+	else
+	   	y=0;
 	document.getElementById("empty").innerHTML="Nothing Achieved!!!";
 	if(y==1)
 		document.getElementById("sup1").innerHTML="superscript!!!";
